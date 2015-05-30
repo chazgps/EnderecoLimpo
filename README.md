@@ -3,8 +3,8 @@ Uma Biblioteca de Software para Higienização de Endereços
 
 EnderecoLimpo é uma biblioteca básica em Java que visa ajudar na limpeza e padronização de endereços (logradouros). Ela prove:
 
-1. Meios de detecção de problemas na informação, procurar erros ou inconsistências e permitir que se estime quanto da informação está comprometida
-2. Limpeza e padronização da informação para que sua qualidade aumente.
+* Meios de detecção de problemas na informação, procurar erros ou inconsistências e permitir que se estime quanto da informação está comprometida
+* Limpeza e padronização da informação para que sua qualidade aumente.
 
 Higienização e sanitização de cadastros são assuntos abrangentes, que envolvem muitas técnicas e procedimentos. O foco desta biblioteca não é ser uma solução completa para o problema mas sim fornecer uma pequena contribuição gratuita para que seja possível detectar e padronizar endereços de forma a um melhor aproveitamento da informação nos processos de negócios e uso em geral.
 
@@ -18,3 +18,7 @@ O software aqui disponibilizado está organizado em 2 partes:
 
 1. Biblioteca Java para detecção de problemas com um logradouro (EnderecoLimpo)
 2. Software demonstrativo das capacidades da biblioteca (TestaDetectores)
+
+# Licença
+
+EnderecoLimpo é disponibilizado sob a licença MIT.
