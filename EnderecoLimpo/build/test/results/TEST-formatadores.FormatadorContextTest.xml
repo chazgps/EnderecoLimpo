@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="xs" name="formatadores.FormatadorContextTest" tests="4" time="0.11" timestamp="2010-11-21T15:28:11">
+  <properties>
+    <property name="default.javac.source" value="1.6" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="libs.toplink.maven-pom" value="" />
+    <property name="javac.source" value="1.5" />
+    <property name="netbeans.system_http_proxy" value="DIRECT" />
+    <property name="java.home" value="D:\tools\jdk1.6.0_14\jre" />
+    <property name="libs.metro.src" value="" />
+    <property name="libs.jaxws21.src" value="" />
+    <property name="javadoc.version" value="false" />
+    <property name="libs.CopyLibs.classpath" value="D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\ant\extra\org-netbeans-modules-java-j2seproject-copylibstask.jar" />
+    <property name="libs.javac-api.src" value="" />
+    <property name="java.endorsed.dirs" value="D:\tools\jdk1.6.0_14\jre\lib\endorsed" />
+    <property name="libs.MySQLDriver.classpath" value="D:\tools\netbeans-6.7.1-somente desktop\netbeans\ide11\modules\ext\mysql-connector-java-5.1.6-bin.jar" />
+    <property name="libs.jaxb.javadoc" value="" />
+    <property name="libs.junit.maven-pom" value="" />
+    <property name="libs.PostgreSQLDriver.src" value="" />
+    <property name="src.dir" value="src" />
+    <property name="sun.java2d.noddraw" value="true" />
+    <property name="debug-args-line" value="-Xdebug" />
+    <property name="netbeans.hash.code" value="unique=049587a9f-c76c-4d4b-8f8e-f6d36073cef1_fd7b7448-fb6d-418e-b442-f500ee89e4df" />
+    <property name="build.sysclasspath" value="ignore" />
+    <property name="have.sources" value="true" />
+    <property name="includes" value="**" />
+    <property name="source.encoding" value="ISO-8859-1" />
+    <property name="libs.jaxws21.classpath" value="D:\tools\netbeans-6.7.1-somente desktop\netbeans\ide11\modules\ext\jaxb\activation.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\ide11\modules\ext\jaxb\api\jaxb-api.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\ide11\modules\ext\jaxb\jaxb-impl.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\ide11\modules\ext\jaxb\jaxb-xjc.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\ide11\modules\ext\jaxb\api\jsr173_api.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\modules\ext\jaxws21\FastInfoset.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\modules\ext\jaxws21\http.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\modules\ext\jaxws21\api\jaxws-api.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\modules\ext\jaxws21\jaxws-rt.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\modules\ext\jaxws21\jaxws-tools.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\modules\ext\jaxws21\api\jsr181-api.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\modules\ext\jaxws21\api\jsr250-api.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\modules\ext\jaxws21\mimepull.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\modules\ext\jaxws21\api\saaj-api.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\modules\ext\jaxws21\saaj-impl.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\modules\ext\jaxws21\sjsxp.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\modules\ext\jaxws21\stax-ex.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\modules\ext\jaxws21\streambuffer.jar" />
+    <property name="sun.os.patch.level" value="Service Pack 3" />
+    <property name="java.vendor.url" value="http://java.sun.com/" />
+    <property name="java.version" value="1.6.0_14" />
+    <property name="nb.show.statistics.ui" value="usageStatisticsEnabled" />
+    <property name="javac.debug" value="true" />
+    <property name="org.openide.major.version" value="IDE/1" />
+    <property name="run.classpath" value=":build/classes" />
+    <property name="libs.PostgreSQLDriver.maven-pom" value="" />
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+    <property name="netbeans.autoupdate.variant" value="" />
+    <property name="libs.junit_4.maven-pom" value="" />
+    <property name="netbeans.buildnumber" value="200907230233" />
+    <property name="manifest.file" value="manifest.mf" />
+    <property name="libs.IdentityAntTasks.classpath" value="D:\tools\netbeans-6.7.1-somente desktop\netbeans\identity2\ant\nblib\org-netbeans-modules-identity-ant.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\identity2\modules\org-netbeans-modules-identity-profile-api.jar" />
+    <property name="user.name" value="eu" />
+    <property name="jnlp.enabled" value="false" />
+    <property name="manifest.available+main.class+mkdist.available" value="true" />
+    <property name="empty.dir" value="E:\CD\Código-fonte\EnderecoLimpo\build\empty" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="libs.jstl11.maven-pom" value="" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="application.vendor" value="CGSILVA" />
+    <property name="jdk.home" value="D:\tools\jdk1.6.0_14" />
+    <property name="jspc.classpath" value="D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\ant\lib\ant.jar:D:\tools\netbeans-6.7.1-somente desktop\netbeans\enterprise5\modules\ext\servlet2.5-jsp2.1-api.jar:${j2ee.platform.classpath}:D:\tools\netbeans-6.7.1-somente desktop\netbeans\enterprise5\modules\ext\glassfish-jspparser-2.0.jar:D:\tools\netbeans-6.7.1-somente desktop\netbeans\enterprise5\modules\ext\glassfish-logging-2.0.jar:null:D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\ant\lib\ant-launcher.jar" />
+    <property name="sun.awt.keepWorkingSetOnMinimize" value="true" />
+    <property name="netbeans.autoupdate.version" value="1.23" />
+    <property name="org.openide.TopManager" value="org.netbeans.core.NonGui" />
+    <property name="netbeans.dirs" value="D:\tools\netbeans-6.7.1-somente desktop\netbeans\nb6.7;D:\tools\netbeans-6.7.1-somente desktop\netbeans\ergonomics1;D:\tools\netbeans-6.7.1-somente desktop\netbeans\ide11;D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2;D:\tools\netbeans-6.7.1-somente desktop\netbeans\xml2;D:\tools\netbeans-6.7.1-somente desktop\netbeans\apisupport1;D:\tools\netbeans-6.7.1-somente desktop\netbeans\webcommon1;D:\tools\netbeans-6.7.1-somente desktop\netbeans\websvccommon1;D:\tools\netbeans-6.7.1-somente desktop\netbeans\enterprise5;D:\tools\netbeans-6.7.1-somente desktop\netbeans\mobility8;D:\tools\netbeans-6.7.1-somente desktop\netbeans\profiler3;D:\tools\netbeans-6.7.1-somente desktop\netbeans\ruby2;D:\tools\netbeans-6.7.1-somente desktop\netbeans\python1;D:\tools\netbeans-6.7.1-somente desktop\netbeans\php1;D:\tools\netbeans-6.7.1-somente desktop\netbeans\visualweb2;D:\tools\netbeans-6.7.1-somente desktop\netbeans\soa2;D:\tools\netbeans-6.7.1-somente desktop\netbeans\identity2;D:\tools\netbeans-6.7.1-somente desktop\netbeans\uml6;D:\tools\netbeans-6.7.1-somente desktop\netbeans\harness;D:\tools\netbeans-6.7.1-somente desktop\netbeans\cnd2;D:\tools\netbeans-6.7.1-somente desktop\netbeans\dlight1;D:\tools\netbeans-6.7.1-somente desktop\netbeans\groovy1;D:\tools\netbeans-6.7.1-somente desktop\netbeans\extra;D:\tools\netbeans-6.7.1-somente desktop\netbeans\javafx2" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="javadoc.author" value="false" />
+    <property name="user.timezone" value="" />
+    <property name="manifest.available" value="true" />
+    <property name="libs.junit.javadoc" value="D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\docs\junit-3.8.2-api.zip" />
+    <property name="org.openide.specification.version" value="6.2" />
+    <property name="path.separator" value=";" />
+    <property name="version-output" value="java version &quot;1.6" />
+    <property name="libs.jaxb.maven-pom" value="" />
+    <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="dist.javadoc.dir" value="dist/javadoc" />
+    <property name="https.nonProxyHosts" value="localhost|127.0.0.1|xs" />
+    <property name="libs.junit.src" value="" />
+    <property name="libs.metro.maven-pom" value="" />
+    <property name="ant.file" value="E:\CD\Código-fonte\EnderecoLimpo\build.xml" />
+    <property name="libs.junit_4.src" value="D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\docs\junit-4.5-src.jar" />
+    <property name="netbeans.autoupdate.language" value="pt" />
+    <property name="do.jar" value="true" />
+    <property name="java.io.tmpdir" value="C:\DOCUME~1\eu\CONFIG~1\Temp\" />
+    <property name="build.test.results.dir" value="build/test/results" />
+    <property name="user.language" value="pt" />
+    <property name="line.separator" value="
+" />
+    <property name="apple.laf.useScreenMenuBar" value="true" />
+    <property name="javac.compilerargs" value="" />
+    <property name="config" value="Aplicacao_Final" />
+    <property name="jar.compress" value="true" />
+    <property name="debug-transport-by-os" value="dt_shmem" />
+    <property name="libs.JWSAntTasks.src" value="" />
+    <property name="javac.compilerargs.jaxws" value="" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="libs.javac-api.maven-pom" value="" />
+    <property name="jnlp.codebase.url" value="file:/Z:/Meu%20TCC/fontes/EnderecoLimpo/dist/" />
+    <property name="javadoc.private" value="false" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="build.test.classes.dir" value="build/test/classes" />
+    <property name="libs.jaxb.src" value="" />
+    <property name="jaxws.endorsed.dir" value="D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\modules\ext\jaxws21\api:D:\tools\netbeans-6.7.1-somente desktop\netbeans\ide11\modules\ext\jaxb\api" />
+    <property name="libs.MySQLDriver.javadoc" value="" />
+    <property name="netbeans.dynamic.classpath" value="D:\tools\netbeans-6.7.1-somente desktop\netbeans\platform10\core\core.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\platform10\core\org-openide-filesystems.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\platform10\core\locale\core_ja.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\platform10\core\locale\core_pt_BR.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\platform10\core\locale\core_zh_CN.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\platform10\core\locale\org-openide-filesystems_ja.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\platform10\core\locale\org-openide-filesystems_pt_BR.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\platform10\core\locale\org-openide-filesystems_zh_CN.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\nb6.7\core\org-netbeans-upgrader.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\nb6.7\core\locale\core_nb.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\nb6.7\core\locale\core_nb_ja.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\nb6.7\core\locale\core_nb_pt_BR.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\nb6.7\core\locale\core_nb_zh_CN.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\nb6.7\core\locale\org-netbeans-upgrader_ja.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\nb6.7\core\locale\org-netbeans-upgrader_pt_BR.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\nb6.7\core\locale\org-netbeans-upgrader_zh_CN.jar" />
+    <property name="manifest.available+main.class" value="true" />
+    <property name="platform.active" value="default_platform" />
+    <property name="http.nonProxyHosts" value="localhost|127.0.0.1|xs" />
+    <property name="libs.junit_4.javadoc" value="D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\docs\junit-4.5-api.zip" />
+    <property name="netbeans.autoupdate.country" value="BR" />
+    <property name="javadoc.encoding" value="ISO-8859-1" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="dist.jar" value="dist/EnderecoLimpo.jar" />
+    <property name="meta.inf.dir" value="src/META-INF" />
+    <property name="ant.version" value="Apache Ant version 1.7.1 compiled on June 27 2008" />
+    <property name="netbeans.home" value="D:\tools\netbeans-6.7.1-somente desktop\netbeans\platform10" />
+    <property name="javadoc.nonavbar" value="false" />
+    <property name="user.properties.file" value="C:\Documents and Settings\eu\.netbeans\6.7\build.properties" />
+    <property name="libs.JWSAntTasks.classpath" value="D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\ant\extra\org-netbeans-modules-javawebstart-anttasks.jar" />
+    <property name="libs.toplink.classpath" value="D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\modules\ext\toplink\toplink-essentials.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\modules\ext\toplink\toplink-essentials-agent.jar" />
+    <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
+    <property name="libs.IdentityAntTasks.javadoc" value="" />
+    <property name="libs.CopyLibs.maven-pom" value="" />
+    <property name="useJavaUtilZip" value="true" />
+    <property name="build.generated.dir" value="build/generated" />
+    <property name="netbeans.home+have.tests" value="true" />
+    <property name="os.name" value="Windows XP" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="libs.metro.javadoc" value="D:\tools\netbeans-6.7.1-somente desktop\netbeans\enterprise5\docs\metro-1.4-doc.zip" />
+    <property name="run.test.classpath" value=":build/classes:D:\tools\netbeans-6.7.1-somente desktop\netbeans\platform10\modules\ext\junit-4.5.jar:build/test/classes" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="libs.CopyLibs.src" value="" />
+    <property name="test.test.dir" value="test" />
+    <property name="org.openide.version" value="deprecated" />
+    <property name="libs.junit.classpath" value="D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\modules\ext\junit-3.8.2.jar" />
+    <property name="java.library.path" value="D:\tools\jdk1.6.0_14\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\tools\jdk1.6.0_14\BIN" />
+    <property name="libs.PostgreSQLDriver.javadoc" value="" />
+    <property name="libs.toplink.javadoc" value="" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="basedir" value="E:\CD\Código-fonte\EnderecoLimpo" />
+    <property name="javadoc.noindex" value="false" />
+    <property name="java.class.version" value="50.0" />
+    <property name="sun.awt.exception.handler" value="org.netbeans.core.startup.TopLogging$AWTHandler" />
+    <property name="javac.test.classpath" value=":build/classes:D:\tools\netbeans-6.7.1-somente desktop\netbeans\platform10\modules\ext\junit-4.5.jar" />
+    <property name="ant.home" value="D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\ant" />
+    <property name="javadoc.splitindex" value="true" />
+    <property name="libs.toplink.src" value="" />
+    <property name="libs.javac-api.javadoc" value="" />
+    <property name="javadoc.preview" value="true" />
+    <property name="libs.MySQLDriver.maven-pom" value="" />
+    <property name="libs.CopyLibs.javadoc" value="" />
+    <property name="libs.PostgreSQLDriver.classpath" value="D:\tools\netbeans-6.7.1-somente desktop\netbeans\ide11\modules\ext\postgresql-8.3-603.jdbc3.jar" />
+    <property name="libs.jaxws21.maven-pom" value="" />
+    <property name="libs.junit_4.classpath" value="D:\tools\netbeans-6.7.1-somente desktop\netbeans\platform10\modules\ext\junit-4.5.jar" />
+    <property name="build.dir" value="build" />
+    <property name="sun.boot.library.path" value="D:\tools\jdk1.6.0_14\jre\bin" />
+    <property name="ant.file.EnderecoLimpo" value="E:\CD\Código-fonte\EnderecoLimpo\build.xml" />
+    <property name="application.title" value="EnderecoLimpo" />
+    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="user.variant" value="" />
+    <property name="javadoc.encoding.used" value="ISO-8859-1" />
+    <property name="javadoc.windowtitle" value="EnderecoLimpo" />
+    <property name="libs.jstl11.javadoc" value="" />
+    <property name="build.generated.sources.dir" value="build/generated-sources" />
+    <property name="run.jvmargs" value="" />
+    <property name="libs.IdentityAntTasks.src" value="" />
+    <property name="build.compiler.emacs" value="true" />
+    <property name="libs.jstl11.src" value="" />
+    <property name="ant.project.name" value="EnderecoLimpo" />
+    <property name="libs.IdentityAntTasks.maven-pom" value="" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="libs.jaxb.classpath" value="D:\tools\netbeans-6.7.1-somente desktop\netbeans\ide11\modules\ext\jaxb\activation.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\ide11\modules\ext\jaxb\api\jaxb-api.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\ide11\modules\ext\jaxb\jaxb-impl.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\ide11\modules\ext\jaxb\jaxb-xjc.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\ide11\modules\ext\jaxb\api\jsr173_api.jar" />
+    <property name="work.dir" value="E:\CD\Código-fonte\EnderecoLimpo" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="javadoc.use" value="true" />
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+    <property name="java.ext.dirs" value="D:\tools\jdk1.6.0_14\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="os.version" value="5.1" />
+    <property name="excludes" value="" />
+    <property name="libs.jstl11.classpath" value="D:\tools\netbeans-6.7.1-somente desktop\netbeans\enterprise5\modules\ext\standard.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\enterprise5\modules\ext\jstl.jar" />
+    <property name="jnlp.descriptor" value="application" />
+    <property name="user.home" value="C:\Documents and Settings\eu" />
+    <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser" />
+    <property name="libs.metro.classpath" value="D:\tools\netbeans-6.7.1-somente desktop\netbeans\ide11\modules\ext\jaxb\activation.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\enterprise5\modules\ext\metro\webservices-api.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\enterprise5\modules\ext\metro\webservices-extra-api.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\enterprise5\modules\ext\metro\webservices-extra.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\enterprise5\modules\ext\metro\webservices-rt.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\enterprise5\modules\ext\metro\webservices-tools.jar" />
+    <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+    <property name="org.openide.TopManager.GUI" value="true" />
+    <property name="user.dir" value="E:\CD\Código-fonte\EnderecoLimpo" />
+    <property name="debug-transport" value="dt_shmem" />
+    <property name="application.args" value="" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="compile.on.save" value="true" />
+    <property name="java.vm.version" value="14.0-b16" />
+    <property name="libs.MySQLDriver.src" value="" />
+    <property name="jnlp.offline-allowed" value="false" />
+    <property name="java.class.path" value="E:\CD\Código-fonte\EnderecoLimpo\build\classes;D:\tools\netbeans-6.7.1-somente desktop\netbeans\platform10\modules\ext\junit-4.5.jar;E:\CD\Código-fonte\EnderecoLimpo\build\test\classes;D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\ant\lib\ant-launcher.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\ant\lib\ant.jar;D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\ant\patches\72080.jar" />
+    <property name="os.arch" value="x86" />
+    <property name="javac.deprecation" value="true" />
+    <property name="build.classes.excludes" value="**/*.java,**/*.form,Main*.*" />
+    <property name="dist.dir" value="dist" />
+    <property name="debug.classpath" value=":build/classes" />
+    <property name="netbeans.user" value="C:\Documents and Settings\eu\.netbeans\6.7" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="jnlp.codebase.type" value="local" />
+    <property name="ant.core.lib" value="D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\ant\lib\ant.jar" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="jnlp.signed" value="false" />
+    <property name="do.depend" value="false" />
+    <property name="file.separator" value="\" />
+    <property name="java.runtime.version" value="1.6.0_14-b08" />
+    <property name="sun.boot.class.path" value="D:\tools\jdk1.6.0_14\jre\lib\resources.jar;D:\tools\jdk1.6.0_14\jre\lib\rt.jar;D:\tools\jdk1.6.0_14\jre\lib\sunrsasign.jar;D:\tools\jdk1.6.0_14\jre\lib\jsse.jar;D:\tools\jdk1.6.0_14\jre\lib\jce.jar;D:\tools\jdk1.6.0_14\jre\lib\charsets.jar;D:\tools\jdk1.6.0_14\jre\classes" />
+    <property name="debug.test.classpath" value=":build/classes:D:\tools\netbeans-6.7.1-somente desktop\netbeans\platform10\modules\ext\junit-4.5.jar:build/test/classes" />
+    <property name="jspctask.classpath" value="D:\tools\netbeans-6.7.1-somente desktop\netbeans\enterprise5\ant\extra\jspcompile.jar" />
+    <property name="main.class" value="Main" />
+    <property name="have.tests" value="true" />
+    <property name="libs.JWSAntTasks.maven-pom" value="" />
+    <property name="java.util.logging.config.class" value="org.netbeans.core.startup.TopLogging" />
+    <property name="libs.javac-api.classpath" value="D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\modules\ext\javac-api-nb-7.0-b07.jar" />
+    <property name="user.country" value="BR" />
+    <property name="javadoc.notree" value="false" />
+    <property name="libs.jaxws21.javadoc" value="D:\tools\netbeans-6.7.1-somente desktop\netbeans\java2\docs\jaxws-2_1-api-doc.zip" />
+    <property name="javadoc.additionalparam" value="" />
+    <property name="default.javac.target" value="1.6" />
+    <property name="javac.classpath" value="" />
+    <property name="build.classes.dir" value="build/classes" />
+    <property name="ant.file.EnderecoLimpo-impl" value="E:\CD\Código-fonte\EnderecoLimpo\nbproject\build-impl.xml" />
+    <property name="javac.target" value="1.5" />
+    <property name="java.vendor" value="Sun Microsystems Inc." />
+    <property name="java.specification.version" value="1.6" />
+    <property name="libs.JWSAntTasks.javadoc" value="" />
+    <property name="sun.arch.data.model" value="32" />
+  </properties>
+  <testcase classname="formatadores.FormatadorContextTest" name="testAdicionaFormatador" time="0.0" />
+  <testcase classname="formatadores.FormatadorContextTest" name="testRemoveFormatador" time="0.0" />
+  <testcase classname="formatadores.FormatadorContextTest" name="testFormatar" time="0.016" />
+  <testcase classname="formatadores.FormatadorContextTest" name="testReferenciaNula" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
